@@ -8,13 +8,13 @@
   </head>
   <body>
     <div class="carousel">
+      <button class="carousel__button carousel__button--left">
+        <img src="./assets/arrow-left-solid.svg" alt="An arrow pointing left" />
+      </button>
       <div class="carousel__track-container">
-        <button class="carousel__button carousel__button--left">
-          <img src="./assets/arrow-left-solid.svg" alt="An arrow pointing left" />
-        </button>
         <ul class="carousel__track">
-          <li class="carousel__slide">
-            <img src="assets/slide-1.jpg" class="carousel__image current-slide" alt="" />
+          <li class="carousel__slide current-slide">
+            <img src="assets/slide-1.jpg" class="carousel__image" alt="" />
           </li>
           <li class="carousel__slide">
             <img src="assets/slide-2.jpg" class="carousel__image" alt="" />
@@ -23,10 +23,10 @@
             <img src="assets/slide-3.jpg" class="carousel__image" alt="" />
           </li>
         </ul>
-        <button class="carousel__button carousel__button--right">
-          <img src="./assets/arrow-right-solid.svg" alt="An arrow pointing right" />
-        </button>
       </div>
+      <button class="carousel__button carousel__button--right">
+        <img src="./assets/arrow-right-solid.svg" alt="An arrow pointing right" />
+      </button>
 
       <nav class="carousel__nav">
         <button class="carousel__indicator current-slide">
